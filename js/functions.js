@@ -108,7 +108,7 @@ function capturarDatos(){
     } else {
         mFoto.src = "img/userO.png";
     }
-    
+  
     switch (color){
         case "rojo":
         var contenedor = document.getElementById("contAvatar");
