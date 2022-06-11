@@ -105,10 +105,8 @@ function capturarDatos(){
         mFoto.src = "img/userF.png";
     } else if (genero == "Masculino"){
         mFoto.src = "img/userM.png";
-    } else if (genero == "Otro") {
-        mFoto.src = "img/userO.png";
     } else {
-        mFoto.src = "img/user.png";
+        mFoto.src = "img/userO.png";
     }
     
     switch (color){
